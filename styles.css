@@ -41,6 +41,12 @@ section {
 
 }
 
+.section-1 p {
+    position: absolute;
+    left: 50px;
+    margin-bottom: 70px;
+}
+
 .section-1 article {
     display: flex;
     flex-direction: column;
@@ -76,7 +82,10 @@ section {
 
 .section-1 hr:not(.rotate){
     position: absolute;
-    height: 95%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.1;
+    margin-bottom: 40px;
 
 }
 
