@@ -46,7 +46,7 @@
         <section class="section-2">
             <h1>Projetos</h1>
             <ul>
-                <li><a href="<?php echo $BASE_URL; ?>project_1/blog" target="_blank"><img src="logo_projeto_1.svg"
+                <li><a href="<?php echo $BASE_URL; ?>project_1/" target="_blank"><img src="logo_projeto_1.svg"
                             alt="Logo do projeto"></a></li>
                 <li><img src="Gui.jpg" alt="Logo do projeto"></li>
                 <li><img src="Gui.jpg" alt="Logo do projeto"></li>
