@@ -169,6 +169,10 @@ ul li img {
     transition: .4s ease-in-out;
 }
 
+ul li.php img {
+    width: 175px;
+}
+
 ul li img:hover {
     transform: scale(1.2);
 }
