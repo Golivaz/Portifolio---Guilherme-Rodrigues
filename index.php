@@ -6,6 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="<?= $BASE_URL ?>/assets/GOR.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap"
@@ -16,6 +18,10 @@
 
 <body>
     <header>
+
+        <a class="navbar-brand" href="<?= $BASE_URL ?>index.php">
+            <img src="<?= $BASE_URL ?>/assets/GOR.png" alt="Agenda">
+        </a>
         <h3>Guilherme <strong>Rodrigues</strong></h3>
     </header>
     <main>
@@ -44,12 +50,13 @@
             <hr class="hr-4" />
         </section>
         <section class="section-2">
-            <h1>Projetos</h1>
+            <h1>Projects</h1>
             <ul>
-                <li><a href="<?php echo $BASE_URL; ?>project_1/" target="_blank"><img src="logo_projeto_1.svg"
-                            alt="Logo do projeto"></a></li>
-                <li><img src="Gui.jpg" alt="Logo do projeto"></li>
-                <li><img src="Gui.jpg" alt="Logo do projeto"></li>
+                <li><a href="<?php echo $BASE_URL; ?>project_1/" target="_blank"><img
+                            src="<?php echo $BASE_URL; ?>project_1/img/logo.svg" alt="Logo do projeto de blog"></a></li>
+                <li><a href="<?php echo $BASE_URL; ?>project_2/" target="_blank"><img
+                            src="<?php echo $BASE_URL; ?>project_2/img/logo.svg" alt="Logo do projeto de Agenda"></a>
+                </li>
             </ul>
         </section>
         <section class="section-3">
@@ -58,6 +65,9 @@
                 <li class="php"><img src="assets/php.png" alt="Imagem do PHP"> </li>
                 <li><img src="assets/html.svg" alt="Imagem do HTML"> </li>
                 <li><img src="assets/css.svg" alt="Imagem do CSS"> </li>
+                <li><img src="assets/mysql.png" alt="Imagem do MYSQL"> </li>
+                <li><img src="assets/PS.png" alt="Imagem do Photoshop"> </li>
+
             </ul>
         </section>
     </main>
