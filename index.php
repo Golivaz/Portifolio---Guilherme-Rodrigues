@@ -74,5 +74,4 @@
         <h3>Guilherme Rodrigues &copy; <?= date("Y"); ?></h3>
     </footer>
 </body>
-
 </html>
