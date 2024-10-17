@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="styles.css">
     <title>Portifólio - Guilherme Rodrigues</title>
 </head>
-
 <body>
     <header>
 
