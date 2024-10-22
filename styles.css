@@ -161,6 +161,7 @@ strong {
     font-weight: 700;
     border-right: 1px solid #d1c7c7;
     padding-right: 40px;
+    margin-left: 30px;
 }
 
 ul li {
@@ -178,7 +179,7 @@ ul li.php img {
 }
 
 ul li img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 @media (max-width: 1365px) {
@@ -278,3 +279,34 @@ footer h3 {
     padding-block: 20px;
     text-align: center;
 }
+
+.stack-carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.stack-carousel div {
+    flex: 0 0 auto; /* Garante que os itens não estiquem */
+    margin: 0 15px;
+}
+
+.stack-carousel img {
+    width: 150px;  /* Ajuste para o tamanho que deseja */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.projects-carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.projects-carousel img {
+    width: 200px; /* Ajuste o tamanho da imagem do projeto conforme necessário */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+

@@ -5,9 +5,9 @@
 <?php
 
 $host = "localhost";
-$dbname = "agenda";
-$user = "root";
-$pass = "";
+$dbname = "u152640281_agenda";
+$user = "u152640281_adm";
+$pass = "Agenda1233654";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
